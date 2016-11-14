@@ -1,6 +1,6 @@
 #!/usr/bin/env fish
 
-function aws_list_users
+function aws_iam
   if test (count $argv) -ge 2
     set command $argv[1]
     set arguments $argv[2..-1]
@@ -13,7 +13,7 @@ function aws_list_users
   end
   switch $command
     case '-h' '--help' 'help'
-      aws_list_users.help
+      aws_iam.help
       set -e argv
       set -e command
       set -e arguments
@@ -22,7 +22,7 @@ function aws_list_users
       # echo $user_list | jq -r '.Users[] | "User: " + .UserName'
       # set -e argv
       # set -e user_list
-      aws_list_users.list $arguments
+      aws_list.users $arguments
       set -e argv
     case '*'
       echo 'i dunno'

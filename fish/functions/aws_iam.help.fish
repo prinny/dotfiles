@@ -1,9 +1,9 @@
 #!/usr/bin/env fish 
 
-function aws_list_users.help
+function aws_iam.help
   echo "Lists AWS users for a given profile in a friendly format.
 
-  Usage: aws_list_users [options]
+  Usage: aws_iam [options]
 
   Options:
     -h, --help      Display this help text and exit
