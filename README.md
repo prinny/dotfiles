@@ -4,3 +4,4 @@
 * fish
 * tmux
 * vim
+* OS Utils
