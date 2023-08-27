@@ -15,7 +15,7 @@ hidutil property --set '{"UserKeyMapping":[{"HIDKeyboardModifierMappingSrc":0x70
 ```
 
 # Known Issues
-* The script requires the user to successfully log-in. This is due to the script being configured as a *Login Item*, which by nature only runs after a user has logged in for the first time. Keep this in mind should your remapped key be one you use for your password.
+The script requires the user to successfully log-in. This is due to the script being configured as a *Login Item*, which by nature only runs after a user has logged in for the first time. Keep this in mind should your remapped key be one you use for your password.
 
 # FAQ
 Q. Why does this use `zsh`?
