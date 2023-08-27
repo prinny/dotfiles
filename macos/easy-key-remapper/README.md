@@ -4,8 +4,8 @@
 3. Set up the script as a *Login Item*. Instructions can be found [here](https://support.apple.com/guide/mac-help/open-items-automatically-when-you-log-in-mh15189/mac).
 
 # Example
-|0x700000035|Keyboard Grave Accent and Tilde|
-|0x700000039|Keyboard Caps Lock|
+| 0x700000035 | Keyboard Grave Accent and Tilde |
+| 0x700000039 | Keyboard Caps Lock |
 
 ```
 #!/usr/bin/env zsh
